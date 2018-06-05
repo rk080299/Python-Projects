@@ -1,0 +1,12 @@
+To change the name of the website to block make change in the website_list
+
+Location of hosts file in linux is /etc/hosts
+
+For linux and Mac User
+
+To run the app in the background you have to add a line in
+
+sudo crontab -e
+
+@reboot python3 "location of file"
+
