@@ -42,10 +42,10 @@ while True:
 	if status_list[-1]==1 and status_list[-2]==0:
 		times.append(datetime.now())
 
-	cv2.imshow("Color",frame)
-	cv2.imshow("Gray",gray_frame)
-	cv2.imshow("Delta",delta_frame)
-	cv2.imshow("Thresh",thresh_frame)
+#	cv2.imshow("Color",frame)
+#	cv2.imshow("Gray",gray_frame)
+#	cv2.imshow("Delta",delta_frame)
+#	cv2.imshow("Thresh",thresh_frame)
 
 	key = cv2.waitKey(1) & 0xFF
 
